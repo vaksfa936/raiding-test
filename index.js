@@ -77,7 +77,7 @@ if (message.content.startsWith(prefix+"destruir")) {
 
  
 
-if (command === license) {
+if (command === "license") {
  message.author.send("MIT")
  message.author.send("Copyright 2019 Reymundus")
  message.author.send("________________________")
