@@ -18,15 +18,33 @@ client.on("message", (message) => {
   const args = message.content.slice(prefix.length).trim().split(/ +/g);
 const command = args.shift().toLowerCase();
 var veses = 100
-var mensagge = "69"
+var mene = "69"
+var mene1 = "69"
+var mene2 = "69"
+var mene3 = "69"
+var mene4 = "69"
+var mene5 = "69"
+var mene6 = "69"
+var mene7 = "69"
+var mene8 = "69"
+var mene9 = "69"
 var idCanales = "777"
 var idDm = "666"
 
 
 while (command === "canales" && veses>=1) { 
   idCanales = args[0]
-  mensagge = args[1]
-    client.channels.get(idCanales).send(mensagge)
+  mene = args[1]
+  mene1 = args[2]
+  mene2 = args[3]
+  mene3 = args[4]
+  mene4 = args[5]
+  mene5 = args[6]
+  mene6 = args[7]
+  mene7 = args[8]
+  mene8 = args[9]
+  mene9 = args[10]
+    client.channels.get(idCanales).send(mene+" "+mene1+" "+mene2+" "+mene3+" "+mene4+" "+mene5+" "+mene6+" "+mene7+" "+mene8+" "+mene9)
     console.log(client.channels.get(idCanales).name)
     console.log(client.channels.get(idCanales).id)
     veses--
@@ -39,17 +57,34 @@ veses = 100
 
 while (command === "dm" && veses>=1) { 
   idDm = args[0]
-  mensagge = args[1]
-  client.users.get(idDm).send(mensagge);
+  mene = args[1]
+  mene1 = args[2]
+  mene2 = args[3]
+  mene3 = args[4]
+  mene4 = args[5]
+  mene5 = args[6]
+  mene6 = args[7]
+  mene7 = args[8]
+  mene8 = args[9]
+  mene9 = args[10]
+  client.users.get(idDm).send(mene+" "+mene1+" "+mene2+" "+mene3+" "+mene4+" "+mene5+" "+mene6+" "+mene7+" "+mene8+" "+mene9);
   veses--
 }
 
 veses = 100
 
 while (command === "killme" && veses>=1) { 
-  mensagge = args[0]
-  idDm = args[1]
- message.author.send(mensagge);
+  mene = args[0]
+  mene1 = args[1]
+  mene2 = args[2]
+  mene3 = args[3]
+  mene4 = args[4]
+  mene5 = args[5]
+  mene6 = args[6]
+  mene7 = args[7]
+  mene8 = args[8]
+  mene9 = args[9]
+ message.author.send(mene+" "+mene1+" "+mene2+" "+mene3+" "+mene4+" "+mene5+" "+mene6+" "+mene7+" "+mene8+" "+mene9);
  veses--
 }
 
@@ -67,16 +102,6 @@ if (message.content.startsWith(prefix+"destruir")) {
 
 
 
-
-
-
-
-
-
-
-
- 
-
 if (command === "license") {
  message.author.send("MIT")
  message.author.send("Copyright 2019 Reymundus")
@@ -87,7 +112,6 @@ if (command === "license") {
  message.author.send("________________________")
  message.author.send("EL SOFTWARE SE PROPORCIONA COMO ESTÁ, SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUYENDO PERO NO LIMITADO A GARANTÍAS DE COMERCIALIZACIÓN, IDONEIDAD PARA UN PROPÓSITO PARTICULAR E INCUMPLIMIENTO. EN NINGÚN CASO LOS AUTORES O PROPIETARIOS DE LOS DERECHOS DE AUTOR SERÁN RESPONSABLES DE NINGUNA RECLAMACIÓN, DAÑOS U OTRAS RESPONSABILIDADES, YA SEA EN UNA ACCIÓN DE CONTRATO, AGRAVIO O CUALQUIER OTRO MOTIVO, DERIVADAS DE, FUERA DE O EN CONEXIÓN CON EL SOFTWARE O SU USO U OTRO TIPO DE ACCIONES EN EL SOFTWARE.")
 }
-
 
 });
 
