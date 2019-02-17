@@ -1,6 +1,7 @@
 Raider para Discord
 =================
 Pequeño y básico raideador para discord.
+
 Modo de uso
 =================
 Este raideador tiene 3 comandos y algo que me gusta llamarle bonus. :-]
@@ -23,6 +24,7 @@ Si logar meter a este bot con permisos de BAN_MEMBERS un servidor este comando l
 Desarrollo
 =================
 Este js lo iré actualizando y añadiendo nuevos comandos
+
 Cambios
 ------------
 Parche: 2.2.3
