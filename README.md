@@ -19,6 +19,7 @@ Yo estoy en contra de la auto lesión pero no soy tu. :-]
 
 s!destruir
 Si logar meter a este bot con permisos de BAN_MEMBERS un servidor este comando la romperá. Literalmente
+
 Desarrollo
 =================
 Este js lo iré actualizando y añadiendo nuevos comandos
